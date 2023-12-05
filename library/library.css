@@ -1,0 +1,113 @@
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+#header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 5px solid red;
+}
+
+.title {
+    font-size: 6rem;
+}
+
+#main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+#add-btn {
+    padding: 10px;
+    font-size: 2rem;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+#add-btn:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+/* main */
+#form {
+    border: 5px solid black;
+    border-radius: 10px;
+    padding: 50px;
+}
+
+#form > p {
+    text-align: center;
+    font-size: 2rem;
+}
+
+#form > div {
+    margin: 1em;
+}
+
+[type="text"], [type="number"] {
+    padding: 10px;
+    width: 15em;
+}
+
+[type="checkbox"] {
+    transform: scale(2);
+    margin: 0 10px 0 5px;
+}
+
+[type="submit"] {
+    padding: 10px;
+    width: 222px;
+    font-size: 1rem;
+    background-color: aquamarine;
+    border: 1px transparent black;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+input::placeholder {
+    font-size: 1rem;
+}
+
+/* card */
+.book-item {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.book-item > div {
+    margin: 10px;
+}
+
+.bk-author, .bk-title, .bk-page, .bk-read {
+    padding: 10px;
+    width: 222px;
+    font-size: 1rem;
+    background-color: wheat;
+    border: 1px transparent black;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.remove-btn {
+    padding: 10px;
+    width: 240px;
+    font-size: 1rem;
+    background-color: aquamarine;
+    border: 1px transparent black;
+    margin-left: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer; 
+}
